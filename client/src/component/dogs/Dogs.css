@@ -1,0 +1,21 @@
+.dog-detail{
+    display: flex;
+    flex-direction: row;
+}
+.dogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ordenado{
+    display: flex;
+    align-items: center;
+    text-shadow: 1px 1px 5px white;
+    
+
+}
+.btnorden{
+    padding: 0px;
+    width: 30px!important;
+    height: 25px;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0 auto;
+}
+.Ini {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flip{
+    position: relative;
+    transition: all 1s ease;
+    transform: perspective(600px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+    width: 100px;
+    
+    }
+    .flip:hover{
+    transform: perspective(600px) rotateY(-180deg) translateX(70%);
+    }
+
+    .flip .flip-1,
+.flip .flip-2{
+position: absolute;
+backface-visibility: hidden;
+}
+.flip .flip-2{
+transform: rotateY(-180deg);
+}
+
+.logo{
+    display: flex;
+    width: 450px;
+}
